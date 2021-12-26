@@ -12,10 +12,7 @@ import java.util.ArrayList;
 public class menuKaryawan2 extends menuKaryawan {
     
     ArrayList<DataKaryawan> menu = new ArrayList<DataKaryawan>();
-    
-    boolean del = false;
-    boolean src = false;
-    int nilai = 0;
+
     
     public void tambah(DataKaryawan dataK){
        menu.add(dataK);
