@@ -33,8 +33,6 @@ public class menuKaryawan2 extends menuKaryawan {
         for(int i = 0; i < menu.size(); i++){            
             if(menu.get(i).kode.equals(idKar)){
                 nilai = i;
-                src = true;
-                
             }
         }
         if(src){
