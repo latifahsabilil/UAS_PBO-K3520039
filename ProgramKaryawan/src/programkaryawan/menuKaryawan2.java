@@ -10,7 +10,9 @@ package programkaryawan;
  */
 import java.util.ArrayList;
 public class menuKaryawan2 extends menuKaryawan {
+    
     ArrayList<DataKaryawan> menu = new ArrayList<DataKaryawan>();
+    
     boolean del = false;
     boolean src = false;
     int nilai = 0;
@@ -61,8 +63,7 @@ public class menuKaryawan2 extends menuKaryawan {
                 Status = "Belum Menikah";
                 anak = 0;
             }
-            
-            
+
             System.out.println(Kode + "    " + Nama + "    " + Golongan+ "    " + Usia+"    " + Status + "    " + anak );
         }
         
