@@ -9,7 +9,11 @@ package programkaryawan;
  * @author Lenovo
  */
 public abstract class menuKaryawan {
-    
+        
+   boolean del = false;
+   boolean src = false;
+   int nilai = 0;
+   
    abstract public void tambah(DataKaryawan dataK);
    abstract public void hapus(String kode);
    abstract public void cari(String kode);
