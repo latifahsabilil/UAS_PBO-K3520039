@@ -57,7 +57,7 @@ public class menuKaryawan2 extends menuKaryawan {
             if( menu.get(i).status == 1){
                 Status = "Sudah Menikah";
                 anak = menu.get(i).nAnak;
-            }else if( menu.get(i).status == 0){
+            }else {
                 Status = "Belum Menikah";
                 anak = 0;
             }
